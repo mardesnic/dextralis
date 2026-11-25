@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Dextralis</title>
+    <meta name="description" content="Dextralis" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --bg: #fff;
+        --text: #1a1a1a;
+        --muted: #666;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121212;
+          --text: #eee;
+          --muted: #999;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+      body {
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 16px;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+      main {
+        text-align: center;
+      }
+      .logo {
+        display: block;
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto 24px;
+        fill: currentColor;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-height: 44px;
+        color: var(--text);
+        text-decoration: none;
+        overflow-wrap: anywhere;
+      }
+      a:hover {
+        color: var(--muted);
+      }
+      a svg {
+        width: 20px;
+        height: 20px;
+        flex: none;
+        fill: currentColor;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <svg class="logo" viewBox="30 4 200 200" role="img" aria-label="Dextralis">
+        <path d="M 123.5,10 L 204,66 L 142.5,152 L 139.5,101 L 62,141 L 100,80 L 54,44 L 130,46.5 Z" />
+        <g transform="translate(36, 174)">
+            <path d="M 0,0 H 9.5 C 16.5,0 21,4.5 21,12 C 21,19.5 16.5,24 9.5,24 H 0 Z M 3.8,3.5 V 20.5 H 9.2 C 14.2,20.5 17.1,17.2 17.1,12 C 17.1,6.8 14.2,3.5 9.2,3.5 Z" />
+            <path d="M 27,0 H 41.5 V 3.5 H 30.8 V 10 H 40.5 V 13.5 H 30.8 V 20.5 H 41.8 V 24 H 27 Z" />
+            <path d="M 46.5,0 H 51 L 56.5,8.8 L 62,0 H 66.5 L 58.8,11.8 L 67,24 H 62.5 L 56.5,14.8 L 50.5,24 H 46 L 54.2,11.8 Z" />
+            <path d="M 70,0 H 87.5 V 3.5 H 80.6 V 24 H 76.8 V 3.5 H 70 Z" />
+            <path d="M 92.5,0 H 101.5 C 106.5,0 109.5,2.8 109.5,7.2 C 109.5,10.8 107.2,13.3 103.5,14 L 110.2,24 H 105.6 L 99.5,14.4 H 96.3 V 24 H 92.5 Z M 96.3,3.5 V 11.1 H 101.2 C 104.1,11.1 105.7,9.6 105.7,7.3 C 105.7,5 104.1,3.5 101.2,3.5 Z" />
+            <path d="M 123.5,0 H 127.3 L 137.5,24 H 133.4 L 131.1,18.4 H 119.7 L 117.4,24 H 113.3 Z M 125.4,4.8 L 121.1,15 H 129.7 Z" />
+            <path d="M 142.5,0 H 146.3 V 20.5 H 156.5 V 24 H 142.5 Z" />
+            <path d="M 161.5,0 H 165.3 V 24 H 161.5 Z" />
+            <path d="M 179.5,24.4 C 174.8,24.4 171.5,22 170.5,18.2 L 174.1,17 C 174.8,19.5 176.8,21 179.7,21 C 182.5,21 184.3,19.6 184.3,17.5 C 184.3,15.5 182.9,14.5 179.2,13.4 C 174.5,12 171.6,10.2 171.6,6.3 C 171.6,2.5 174.9,-0.4 179.6,-0.4 C 183.8,-0.4 186.8,1.7 187.8,5 L 184.3,6.3 C 183.5,4.1 181.9,3 179.5,3 C 177,3 175.4,4.3 175.4,6.2 C 175.4,8.1 176.9,9 180.4,10.1 C 185.3,11.6 188.1,13.4 188.1,17.4 C 188.1,21.7 184.6,24.4 179.5,24.4 Z" />
+        </g>
+      </svg>
+      <a href="mailto:marin.desnica@gmail.com">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"
+          />
+        </svg>
+        marin.desnica@gmail.com
+      </a>
+      <a href="https://github.com/mardesnic">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
+          />
+        </svg>
+        github.com/mardesnic
+      </a>
+    </main>
+  </body>
+</html>
