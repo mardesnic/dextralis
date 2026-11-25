@@ -6,7 +6,7 @@ Demo: https://dextralis.hr/
 
 ## Features
 
-- One page: the Dextralis logo, email and GitHub, and the company details the law asks for
+- One page: the Dextralis logo, email, and the company details the law asks for
 - Light and dark mode (the logo follows the text colour)
 - Works at phone width
 
