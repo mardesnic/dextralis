@@ -1,4 +1,4 @@
-# des-dextralis
+# dextralis
 
 The Dextralis page: logo and contact details. Plain HTML, no build.
 
